@@ -14,4 +14,4 @@ app.route('/sobre/rodrigomarques6').get( (req, res) => res.send("RodrigoMarques6
 // Vamos a mais um exemplo: http://localhost:3000/rodrigomarques6/sobre
 // No caso acima, o "/rodrigomarques6/sobre" é uma rota
 // "GET" é o método utilizado, e dentro dele, devemos falar o que vai acontecer.
-// Deve-se passar, dentro do método GET, uma "req" (requisition) e uma "res" (response), seguida de uma arrow function
+// Deve-se passar, dentro do método GET, uma "req" (requisition) e uma "res" (response), seguida de uma arrow function.
