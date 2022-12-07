@@ -9,9 +9,11 @@ app.listen('3000')
 app.route('/').get( (req, res) => res.send("Olá") )
 app.route('/sobre').get( (req, res) => res.send("Olá mundo!") )
 app.route('/sobre/rodrigomarques6').get( (req, res) => res.send("RodrigoMarques6"))
+app.route('/sobre/rodrigomarques7').get( (req, res) => res.send("O conteúdo aqui!") )
 
 // Route é uma função do express, que significa "rotas", ou seja, um caminho. Exemplo de rotas: "http://localhost:3000/sobre", no caso, o "/sobre" é uma rota!
 // Vamos a mais um exemplo: http://localhost:3000/rodrigomarques6/sobre
 // No caso acima, o "/rodrigomarques6/sobre" é uma rota
 // "GET" é o método utilizado, e dentro dele, devemos falar o que vai acontecer.
 // Deve-se passar, dentro do método GET, uma "req" (requisition) e uma "res" (response), seguida de uma arrow function
+// "send"
