@@ -17,6 +17,7 @@ app.route('/').get( (req, res) => {
     // Daremos um "send" para "enviar", ou seja, aparecer no insomnia o resultado
     .then(result => res.send(`<img src="${result.data.avatar_url}"/>`))
     // Acima adicionamos o "avatar_url" para aparecer o link da foto.
+    // Nós ainda conseguimos fazer um template string para fazer aparecer a nossa foto de perfil do github no insomnia.
     // Se aparecer algum erro, a promessa será realizada com erro.
     .catch(error => console.error(error))
 } )
