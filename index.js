@@ -1,8 +1,8 @@
 const express = require('express')
-// Chamando e guardando o express em uma constante
+// Chamando o módulo express e guardando o express em uma constante
 const app = express()
 // Chamando o express para funcionar
-
+// Agora posso usar qualquer coisa com o express, basta digitar "app" e o método que se quer
 app.listen('3000')
 // Listen fica "ouvindo" o navegador, e quando chegar na porta 3000, ele vai funcionar
 
