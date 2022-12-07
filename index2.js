@@ -1,0 +1,5 @@
+const express = require('express')
+const app = express()
+app.listen('4000')
+app.route('/').get( (req, res) => res.send("Olá, estou na porta 4000") )
+app.route('/contatos').get( (req, res) => res.send('Estou dentro da rota "contatos"') )

@@ -16,4 +16,4 @@ app.route('/sobre/rodrigomarques7').get( (req, res) => res.send("O conteúdo aqu
 // No caso acima, o "/rodrigomarques6/sobre" é uma rota
 // "GET" é o método utilizado, e dentro dele, devemos falar o que vai acontecer.
 // Deve-se passar, dentro do método GET, uma "req" (requisition) e uma "res" (response), seguida de uma arrow function
-// "send"
+// "send" significa "enviar/mandar"
