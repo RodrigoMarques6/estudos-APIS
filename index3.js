@@ -15,7 +15,7 @@ app.route('/').get( (req, res) => {
     // Perceba que o axios trabalha com promises, ou seja, ele vai retornar um then() e um catch()".
     axios.get('https://api.github.com/users/rodrigomarques6')
     // Daremos um "send" para "enviar", ou seja, aparecer no insomnia o resultado
-    .then(result => res.send(result.data.avatar_url))
+    .then(result => res.send(`<img src="${result.data.avatar_url}"/>`))
     // Acima adicionamos o "avatar_url" para aparecer o link da foto.
     // Se aparecer algum erro, a promessa será realizada com erro.
     .catch(error => console.error(error))
