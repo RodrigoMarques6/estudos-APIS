@@ -21,7 +21,7 @@
 //     // Se aparecer algum erro, a promessa será realizada com erro.
 //     .catch(error => console.error(error))
 // } )
-
+// Porque usamos Axios? O express não consegue pegar informações para trazer pra cá. Nessa situação, precisamos utilizar o Axios para fazer isso.
 
 const express = require('express')
 const axios = require('axios')
