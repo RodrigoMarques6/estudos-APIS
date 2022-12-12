@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 1vh;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: rgb(115, 177, 235);
+}
+
+.div1, .div2 {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2 {
+    margin-top: 2vh;
+    padding: 3vh;
+    text-align: center;
+}
+
+p, li {
+    padding: 2vh;
+}
